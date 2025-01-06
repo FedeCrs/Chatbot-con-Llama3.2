@@ -12,7 +12,7 @@
 - Llama 3.2
 
 **Clona este repositorio:**  
-   ```bash
+   bash
    git clone https://github.com/FedeCrs/Chatbot-con-Llama3.2.git
    
 **Ve al directorio del proyecto:**  
