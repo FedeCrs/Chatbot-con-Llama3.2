@@ -33,6 +33,10 @@ def chat():
         # Si hay un error al ejecutar el comando, se captura aquí
         return jsonify({'error': str(e)}), 500
 
+# Endpoint de estado
+@app.route('/status', methods=['GET'])
+def status():
+    return jsonify({'status': 'OK', 'message': 'El servidor está en funcionamiento correctamente'})
 
 if __name__ == '__main__':
     app.run(debug=True)
