@@ -44,7 +44,7 @@ def load_image_as_base64(image_path):
 image_base64 = load_image_as_base64("llamaImage.webp")
 add_background(image_base64, opacity=0.4)
 
-st.title('Agente de apoyo con IA 🤖')
+st.title('Agente de apoyo con IA 🤖 para trabajo interno, seguro y eficaz')
 st.markdown("Escribe un mensaje y envíalo para obtener una respuesta del servidor")
 
 # Entrada de texto para el usuario
