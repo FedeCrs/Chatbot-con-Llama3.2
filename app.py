@@ -36,7 +36,7 @@ def chat():
 # Endpoint de estado
 @app.route('/status', methods=['GET'])
 def status():
-    return jsonify({'status': 'OK', 'message': 'El servidor está en funcionamiento correctamente'})
+    return jsonify({'status': 'OK', 'message': 'El servidor está en funcionamiento correcto'})
 
 if __name__ == '__main__':
     app.run(debug=True)
